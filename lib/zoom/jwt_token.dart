@@ -3,8 +3,8 @@ import 'package:crypto/crypto.dart';
 import 'dart:convert';
 
 String generateJwtToken() {
-  const apiKey = 'fkr9q_YVQ5CBQfDUNyfqCA';
-  const apiSecret = 'uz4z70kAGMVFBvcxCeWeymz5YKr4wK0B';
+  const apiKey = '';
+  const apiSecret = '';
 
   final payload = {
     'iss': apiKey,

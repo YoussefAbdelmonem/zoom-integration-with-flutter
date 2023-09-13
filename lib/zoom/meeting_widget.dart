@@ -123,19 +123,18 @@ class _MeetingWidgetState extends State<MeetingWidget> {
         jwtToken: jwtToken,
       );
       ZoomMeetingOptions meetingOptions1 = ZoomMeetingOptions(
-        userId: 'fkr9q_YVQ5CBQfDUNyfqCA',
+        userId: '',
         meetingId: "71651053513",
       );
       var meetingOptions = ZoomMeetingOptions(
-          userId: 'fkr9q_YVQ5CBQfDUNyfqCA',
+          userId: '',
 
           /// pass username for join meeting only --- Any name eg:- EVILRATT.
           meetingId: meetingIdController.text,
 
           /// pass meeting id for join meeting only
           displayName: "youssef",
-          // zoomAccessToken: "tr_MwZ1LQcmDrAUOWdNMyA ",
-          // zoomToken: "vMy9vQzQ7ucwVsUAxpndQ",
+
 
           /// pass meeting password for join meeting only
           disableDialIn: "true",

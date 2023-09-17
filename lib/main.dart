@@ -25,26 +25,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// class Home extends StatelessWidget {
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//         body: GestureDetector(
-//       child: Center(
-//         child: GestureDetector(
-//             onTap: ()=>
-//               // showDialog(
-//               //     context: context,
-//               //     builder: (context) => ChewieWidget(
-//               //       videoPlayerController: VideoPlayerController.network(
-//               //           'https://siaah.neop.co/storage/uploads/1685355753-ts5r-eid.mp4'),
-//               //     ),
-//               //     useSafeArea: true
-//               // joinSession()
-//
-//             child: Text('Hello World!')),
-//       ),
-//     ));
-//   }
-// }
+

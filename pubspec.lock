@@ -83,20 +83,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_web_plugins:
-    dependency: transitive
-    description: flutter
-    source: sdk
-    version: "0.0.0"
-  flutter_zoom_sdk:
+  gr_zoom:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "5ad7a3f4656a7c4b2554166200db9f2edcbede20"
-      url: "https://github.com/craigspicer/flutter_zoom_sdk.git"
-    source: git
-    version: "1.1.0+4"
+      name: gr_zoom
+      sha256: "3210e3b6d5c9ed8c32ddd00bb111fc13729dc864fecc8b5a625d82b569d0db3d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0+3"
   js:
     dependency: transitive
     description:

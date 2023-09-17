@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets/gr_zoom/zoom_meeting.dart';
 import 'package:widgets/zoom/meeting_widget.dart';
 
 void main() async {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: MeetingWidget());
+        home: const MeetingWidget());
   }
 }
 
